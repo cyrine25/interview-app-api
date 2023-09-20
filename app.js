@@ -1,7 +1,6 @@
 var express = require('express')
 var cors = require('cors')
 var app = express()
-const tracksData = require('./data/tracks.json');
 app.use(
   cors({
     origin: 'http://localhost:3000',
